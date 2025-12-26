@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Opcional: Se quiser um fundo suave em toda a página */
+body {
+  @apply bg-slate-50;
+}
