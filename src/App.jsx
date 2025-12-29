@@ -69,8 +69,8 @@ const App = () => {
               <p className="text-xl leading-relaxed text-slate-700 font-medium relative z-10">
                 Desenvolvedor focado em sistemas de missão crítica.
                 Atualmente cursando <span className="text-black font-bold">Bacharelado em Tecnologia da Informação</span>,
-                possuo experiência prática no ciclo completo de software: do desenvolvimento com 
-                <span className="text-black font-bold"> TypeScript e React</span> à implantação de infraestruturas escaláveis em 
+                possuo experiência prática no ciclo completo de software: do desenvolvimento com
+                <span className="text-black font-bold"> TypeScript e React</span> à implantação de infraestruturas escaláveis em
                 <span className="text-black font-bold"> Cloudflare e Digital Ocean.</span> Especializado em criar soluções robustas para a gestão pública. Busco unir rigor acadêmico com a agilidade das ferramentas mais modernas do mercado, como
                 <span className="text-red-600"> React, Node.js e ecossistemas Cloud.</span>
               </p>
@@ -106,6 +106,16 @@ const App = () => {
                 '/projetos/ragda4.png'
               ]}
             />
+
+            {/* 2. SISTEMA DA BIBLIOTECA (Projeto Integrador) */}
+            <CardProjeto
+              titulo="Biblioteca Infantil Digital"
+              descricao="Gestão de acervo com importação de alunos via Excel (XLSX) e controle de empréstimos. Domínio próprio via Registro.br."
+              tags={['Excel Integration', 'TypeScript', 'Digital Ocean']}
+              linkGithub="https://github.com/rafaolivato"
+              imagem="/projetos/biblioteca5.jpg"
+              fotosGaleria={['/projetos/biblioteca1.jpg', '/projetos/biblioteca2.jpg', '/projetos/biblioteca3.jpg', '/projetos/biblioteca4.jpg']}
+            />
             <CardProjeto
               titulo="GeoPrefeitura: Notificações Cidadãs"
               descricao="Aplicativo de zeladoria urbana que permite ao cidadão reportar problemas via geolocalização e fotos, otimizando o fluxo de trabalho das secretarias municipais."
@@ -127,15 +137,14 @@ const App = () => {
               tags={['React', 'Vite', 'Tailwind']}
               linkGithub="https://github.com/rafaolivato/meu-portfolio"
               imagem="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800"
+              fotosGaleria={[
+                '/projetos/portifolio1.png',
+                '/projetos/portifolio2.png',
+                
+              ]}
             />
 
-            <CardProjeto
-              titulo="Algoritmos de Ordenação"
-              descricao="Estudo aprofundado de complexidade de algoritmos (Big O) com implementações práticas em C para disciplinas do Bacharelado."
-              tags={['C', 'Data Structures', 'Academy']}
-              linkGithub="https://github.com/rafaolivato"
-              imagem="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=800"
-            />
+
           </div>
         </section>
       </main>
