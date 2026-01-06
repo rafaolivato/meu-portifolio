@@ -130,6 +130,20 @@ const App = () => {
               ]}
             />
 
+            <CardProjeto
+              titulo="Site: Arquitetura"
+              descricao="Site para uma arquiteta."
+              tags={['React', 'CSS', 'Bootstrap', 'TypeScript']}
+              linkGithub="https://github.com/rafaolivato" 
+              imagem="/projetos/arquit.png"
+              fotosGaleria={[
+                '/projetos/arquit1.png',
+                '/projetos/arquit.png',
+                '/projetos/arquit2.png',
+                '/projetos/arquit3.png'
+              ]}
+            />
+
             {/* OUTROS PROJETOS */}
             <CardProjeto
               titulo="Portfolio Tricolor"
