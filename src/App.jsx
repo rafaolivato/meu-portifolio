@@ -97,7 +97,7 @@ const App = () => {
               titulo="Gestão Nacional de Medicamentos"
               descricao="Sistema ERP completo para logística farmacêutica municipal. Controle de estoque, rastreabilidade de lotes, dispensação assistida e relatórios de auditoria."
               tags={['React', 'Node.js', 'Prisma', 'Digital Ocean', 'PostgreSQL']}
-              linkGithub="https://github.com/rafaolivato"
+              linkGithub="https://github.com/rafaolivato/fmd"
               imagem="/projetos/ragda4.png"
               fotosGaleria={[
                 '/projetos/ragda1.png',
@@ -112,7 +112,7 @@ const App = () => {
               titulo="Biblioteca Infantil Digital"
               descricao="Gestão de acervo com importação de alunos via Excel (XLSX) e controle de empréstimos. Domínio próprio via Registro.br."
               tags={['Excel Integration', 'TypeScript', 'Digital Ocean']}
-              linkGithub="https://github.com/rafaolivato"
+              linkGithub="https://github.com/rafaolivato/Projeto_integrador_II_biblioteca"
               imagem="/projetos/biblioteca5.jpg"
               fotosGaleria={['/projetos/biblioteca1.jpg', '/projetos/biblioteca2.jpg', '/projetos/biblioteca3.jpg', '/projetos/biblioteca4.jpg']}
             />
@@ -120,7 +120,7 @@ const App = () => {
               titulo="GeoPrefeitura: Notificações Cidadãs"
               descricao="Aplicativo de zeladoria urbana que permite ao cidadão reportar problemas via geolocalização e fotos, otimizando o fluxo de trabalho das secretarias municipais."
               tags={['Node.js', 'Prisma', 'PostgreSQL', 'TypeScript']}
-              linkGithub="https://github.com/rafaolivato" // Coloque o link real do repo aqui
+              linkGithub="https://github.com/rafaolivato/Rave" // Coloque o link real do repo aqui
               imagem="/projetos/prefeitura3.jpeg"
               fotosGaleria={[
                 '/projetos/prefeitura1.jpeg',
@@ -134,7 +134,7 @@ const App = () => {
               titulo="Site: Arquitetura"
               descricao="Site para uma arquiteta."
               tags={['React', 'CSS', 'Bootstrap', 'TypeScript']}
-              linkGithub="https://github.com/rafaolivato" 
+              linkGithub="https://github.com/rafaolivato/site-arquitetura" 
               imagem="/projetos/arquit.png"
               fotosGaleria={[
                 '/projetos/arquit1.png',
